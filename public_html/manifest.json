@@ -1,0 +1,115 @@
+{
+  "name": "TimeLocal - Échangez du temps avec vos voisins",
+  "short_name": "TimeLocal",
+  "description": "Application d'échange de temps et services entre voisins",
+  "start_url": "/app",
+  "display": "standalone",
+  "background_color": "#f0f2f5",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "categories": ["social", "lifestyle", "productivity"],
+  "screenshots": [
+    {
+      "src": "/static/images/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/static/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/static/images/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/images/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/images/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/images/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/images/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle demande",
+      "short_name": "Demande",
+      "description": "Créer une nouvelle demande de service",
+      "url": "/app/requests/new",
+      "icons": [
+        {
+          "src": "/static/images/shortcut-request.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Mes échanges",
+      "short_name": "Échanges",
+      "description": "Voir mes échanges en cours",
+      "url": "/app/exchanges",
+      "icons": [
+        {
+          "src": "/static/images/shortcut-exchanges.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Messages",
+      "short_name": "Messages",
+      "description": "Consulter mes messages",
+      "url": "/app/messages",
+      "icons": [
+        {
+          "src": "/static/images/shortcut-messages.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
